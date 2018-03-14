@@ -1,0 +1,51 @@
+# Misc cruft
+npm-debug.log
+
+# System cruft
+.DS_Store
+
+# IDE files
+.idea/
+
+# Compiled Python
+*.pyc
+__pycache__/
+
+# Databases
+*.db
+*.sqlite
+*.sqlite-journal
+*.sqlite3
+*.sqlite3-journal
+celerybeat-schedule
+
+# Secret(s)
+*secret*
+*.key
+
+# Environment config
+.env
+
+# Python environment
+env/
+venv/
+
+# Local settings
+local_settings.py
+
+git-sha.txt
+
+# Backup files
+*.bak
+
+# Test reports and caches
+.coverage
+.mypy_cache
+
+# PID files
+*.pid
+
+# Local Kubernetes objects (secrets, daemonsets, etc)
+k8s-local.yml
+k8s-local.yaml
+
